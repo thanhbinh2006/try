@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+#container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#b1 {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 25%;
+    background-color: rgba(30, 30, 212, 0.815);
+}
+
+.b2 {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(37, 141, 170);
+    border-radius: 50% 50%;
+}
+
+.active {
+    margin-left: 50%;
+    background-color: #f50101;
+}
